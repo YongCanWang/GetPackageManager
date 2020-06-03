@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bt_getApp"
+        android:text="获取包名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_resetName"
+        android:text="重置包名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_getAllPackageName"
+        android:text="获取应用所有包名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="22dp"
+        android:text="包名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ListView
+        android:id="@+id/lv_showPackageName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
